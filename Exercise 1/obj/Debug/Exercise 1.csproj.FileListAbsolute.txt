@@ -1,0 +1,33 @@
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\ApplicationInsights.config
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\csc.exe
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\System.Collections.Immutable.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\vbc.exe
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\VBCSCompiler.exe
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\roslyn\VBCSCompiler.exe.config
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Exercise 1.dll.config
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Exercise 1.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Exercise 1.pdb
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.Web.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.WindowsServer.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.ApplicationInsights.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.Web.xml
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.AI.WindowsServer.xml
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.ApplicationInsights.xml
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\obj\Debug\Exercise 1.csprojResolveAssemblyReference.cache
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\obj\Debug\Exercise 1.dll
+c:\users\katrina\documents\visual studio 2015\Projects\HTML Exercise\Exercise 1\obj\Debug\Exercise 1.pdb
