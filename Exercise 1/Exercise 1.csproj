@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Discover the tag world.html" />
     <Content Include="HTML5 Elements.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
