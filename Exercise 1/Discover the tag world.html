@@ -23,20 +23,38 @@
     </header>
     <hr />
     <article>
-        <abbr>Hello</abbr> 
-        /* */
-        <blockquote> Katrina Rosales</blockquote>
-       <acronym>Vad gör du?</acronym>
-        <figcaption>Inget själv då?</figcaption>
-        <del>ABC</del>
-        <ins>DEF</ins>
-        <s>GHI</s>
-        <table>KLM</table>
-        <col>NOP</col>
-        <colgroup>QRST</colgroup>
-        <tr>UVW</tr>
-        <th>XYZ</th>
+        <p>Abbr <abbr title="For your information">FYI</abbr></p>
+        <!-- används i taggen för att visa den fullständiga versionen av förkortningen  -->
 
-</article>
+        <p>Read more at: http://www.brainyquote.com/quotes_of_the_day.html <blockquote> The moon looks upon many night flowers; the night flowers see but one moon.</blockquote></p>
+        <!-- Citeras  -->
+
+        <acronym title="As soon as possible">ASAP</acronym> <!-- En akronym måste bokstavera ett ord. Till exempel: NASA, ASAP, GUI.
+        Koda akronymer kan ge användbar information till webbläsare, översättningssystem och sökmotorer.  -->
+
+        <figure><figcaption>Fig1. - A view of the pulpit rock in Norway.</figcaption> </figure>
+        <!-- 
+        figcaption taggen definierar en bildtext till en elementet.
+        figcaption elementet kan placeras som första eller sista barn till elementet.  
+        -->
+
+        <p>Hello i love the color <del>purple </del><ins>pink </ins> <s>Genomen struken ord</s></p>
+        <!-- del : Purple blir struken  ins :  Infogar Pink och då blir ordet understryken --> 
+        
+        <table>Table 
+            <colgroup> <!-- specificerar en grupp av en eller flera kolumner i en tabell för formatering -->
+                <col span="2" style="background-color:hotpink"> <!-- specificerar kolumn egenskaper för varje kolumn i en <colgroup> elementet.-->
+                <col style="background-color:blanchedalmond">
+            </colgroup>
+            <tr> <!-- Definerar rad -->
+                <th>ISBN</th> <!-- Definerar cell -->
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+            
+        </table> 
+        <! -- Citeras  -- > 
+
+    </article>
 </body>
 </html>
