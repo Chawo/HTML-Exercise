@@ -1,0 +1,193 @@
+﻿
+body {
+    padding: 10px;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    background-image:   url('../images/anime_fantasy_dragon_baby_friends_28449_1680x1050.jpg');
+    background-repeat: no-repeat;
+    width: 1680px ;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.headertext{
+    font-size: 120px;
+    text-shadow: 2px 2px black ;
+    float: right;
+}
+
+h1, h2{
+    color: hotpink;
+    font-family:Kokila;
+    font-size: 50px;
+}
+
+p{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+a{
+    color: deeppink;
+}
+
+img{
+     border: solid 5px black;
+     margin-top: 20px;
+     width:1000px;
+}
+ 
+ /*unsorted list*/
+#nav{
+    margin: 0 auto;
+    width: 985px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #333;
+ }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: hotpink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+ 
+
+/*Cellphone*/
+@media screen and (min-width: 480px) { 
+
+    img{
+     width: 935px;   
+    }
+    
+    h1, h2, p{
+     float: left;
+     width: 930px;
+     text-align: center;
+    }
+    
+    #header{
+    width: 985px ;
+    height: 400px;
+    } 
+
+    .headertext{
+    font-size: 130px;
+    text-shadow: 2px 2px black ;
+    }
+
+    #nav{
+    margin: 0 auto;
+    width: 985px; 
+    font-size: 50px;
+    }
+
+    li{
+    font-size: 40px;
+    }
+}
+
+/*Tablett*/
+@media screen and (min-width: 768px) {
+     
+
+    img{
+     width: 975px;   
+    }
+    
+    h1, h2, p{
+     float: left;
+     width: 980px;
+     text-align: center;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    
+    #header{
+    width: 985px ;
+    height: 400px;
+    } 
+
+    .headertext{
+    font-size: 4em;
+    text-shadow: 2px 2px black ;
+    color: white;
+    align-content: center;
+    }
+
+    li{
+    font-size: 40px;
+    }
+
+    li a{
+    font-size: 40px;
+    }
+
+    #emails{
+    margin-top: 40px;  
+    width: 830px;
+    font-size: 25px;
+    }
+
+}
