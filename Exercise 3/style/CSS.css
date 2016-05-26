@@ -129,22 +129,124 @@ textarea {
     resize: none;
 }
 
-.myPostit{
-    width: 200px;
-    height: 200px;
-    border: solid 2px black;
-    -webkit-transition:width 0.3s linear 0s;
-	transition:width 0.3s linear 0s;
-    }
+.quote-container {
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+ 
+}
 
-.myPostit:hover{
-    width: 400px;
-    height: 400px;
+.note {
+  color: #333;
+  position: relative;
+  width: 150px;
+  margin: 0 auto;
+  margin-right:40px;
+  padding: 20px;
+  font-family: Satisfy;
+  font-size: 20px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+}
 
+.note .author {
+  display: block;
+  margin: 40px 0 0 0;
+  text-align: right;
 }
  
+.yellow1 {
+  background: #eae672;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.yellow2 {
+  background: #eae672;
+  -webkit-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    -moz-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    -o-transition:width 300ms ease-in-out, height 300ms ease-in-out;
+    transition:width 300ms ease-in-out, height 300ms ease-in-out;
+}
+
+.yellow3 {
+  background: #eae672;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.yellow1:hover {
+  background: pink; 
+  font-size: 25px;
+}
 
 
+.yellow2:hover {
+  height: 250px;
+  width: 250px;
+}
+
+.yellow3:hover {
+    font-family:'Agency FB';
+    color: deeppink;
+    font-weight: bold;
+}
+
+.pin {
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: -16px;
+  z-index: 1;
+}
+
+.pin:after {
+  background-color: #A31;
+  background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+              inset 3px 3px 3px hsla(0,0%,100%,.2),
+              inset -3px -3px 3px hsla(0,0%,0%,.2),
+              23px 20px 3px hsla(0,0%,0%,.15);
+  content: '';
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+
+.pin:before {
+  background-color: hsla(0,0%,0%,0.1);
+  box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
+  content: '';
+
+  height: 24px;
+  width: 2px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+
+  transform: rotate(57.5deg);
+  -moz-transform: rotate(57.5deg);
+  -webkit-transform: rotate(57.5deg);
+  -o-transform: rotate(57.5deg);
+  -ms-transform: rotate(57.5deg);
+
+  transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+}
 
 /*Tablett*/
 @media all and (max-device-width: 768px) { 
