@@ -20,7 +20,7 @@ body {
 
 
 #emails{
-    width: 100%;
+    width: 98.8%;
     }
 
 #nav{
@@ -31,15 +31,18 @@ body {
 
 
 .headertext{
-    font-size: 120px;
+    font-size: 60px;
     text-shadow: 2px 2px black ;
+    padding: 30px;
     float: right;
 }
 
 h1, h2{
     color: hotpink;
-    font-family:Kokila;
-    font-size: 50px;
+    font-family:'Century Gothic';
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 p{
@@ -57,18 +60,29 @@ img{
      margin-top: 20px;
      width:1000px;
 }
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color:lightpink;
+}
  
  /*unsorted list*/
   
-ul {
+#nav ul {
     list-style-type: none;
     margin: 0 auto;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
  }
 
 #nav li {
     float: left;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family:'Agency FB';
 }
 
 #nav li a {
@@ -130,32 +144,10 @@ textarea {
 }
  
 
-/*Cellphone*/
-@media screen and (max-width: 480px) { 
 
-    img{
-     width: 935px;   
-    }
-    
-    h1, h2, p{
-     float: left;
-     width: 930px;
-     text-align: center;
-    }
-     
-
-    .headertext{
-    font-size: 130px;
-    text-shadow: 2px 2px black ;
-    } 
-
-    #emails{
-    width: 990px;
-    }
-}
 
 /*Tablett*/
-@media screen and (min-width: 768px) {
+@media all and (max-device-width: 768px) { 
      
 
     img{
@@ -184,4 +176,33 @@ textarea {
     font-size: 25px;
     }
 
+}
+
+/*Cellphone*/
+@media all and (max-device-width: 480px) { 
+
+    img{
+     width: 935px;   
+    }
+    
+    h1, h2, p{
+     float: left;
+     width: 930px;
+     text-align: center;
+    }
+     
+
+    .headertext{
+    font-size: 130px;
+    text-shadow: 2px 2px black ;
+    } 
+
+    #emails{
+    width: 990px;
+    }  
+
+    #nav li {
+    float: left;
+    font-size: 40px;
+    }
 }
