@@ -83,7 +83,9 @@
     <Content Include="pages\about.html" />
     <Content Include="pages\contact.html" />
     <Content Include="pages\email.html" />
+    <Content Include="pages\Iphone.html" />
     <Content Include="style\CSS.css" />
+    <Content Include="style\IphoneCss.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
