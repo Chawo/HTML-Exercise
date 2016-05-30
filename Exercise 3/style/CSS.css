@@ -155,7 +155,7 @@ textarea {
 }
  
 .yellow1 {
-  background: #eae672;
+  background: #ECE0F8;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -o-transform: rotate(2deg);
@@ -164,7 +164,7 @@ textarea {
 }
 
 .yellow2 {
-  background: #eae672;
+  background: #E0F8F1;
   -webkit-transition:width 300ms ease-in-out, height 300ms ease-in-out;
     -moz-transition:width 300ms ease-in-out, height 300ms ease-in-out;
     -o-transition:width 300ms ease-in-out, height 300ms ease-in-out;
@@ -172,7 +172,7 @@ textarea {
 }
 
 .yellow3 {
-  background: #eae672;
+  background: #F8E0EC;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -o-transform: rotate(2deg);
@@ -198,7 +198,7 @@ textarea {
 }
 
 .pin {
-  background-color: #aaa;
+  background-color: #ccc;
   display: block;
   height: 32px;
   width: 2px;
@@ -209,13 +209,9 @@ textarea {
 }
 
 .pin:after {
-  background-color: #A31;
+  background-color: pink;
   background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
   border-radius: 50%;
-  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
-              inset 3px 3px 3px hsla(0,0%,100%,.2),
-              inset -3px -3px 3px hsla(0,0%,0%,.2),
-              23px 20px 3px hsla(0,0%,0%,.15);
   content: '';
   height: 12px;
   left: -5px;
@@ -225,8 +221,6 @@ textarea {
 }
 
 .pin:before {
-  background-color: hsla(0,0%,0%,0.1);
-  box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
   content: '';
 
   height: 24px;
@@ -246,6 +240,10 @@ textarea {
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   -o-transform-origin: 50% 100%;
+}
+
+.notesPin{
+    margin-left: 15%;
 }
 
 /*Tablett*/
@@ -269,7 +267,7 @@ textarea {
     .headertext{
     font-size: 4em;
     text-shadow: 2px 2px black ;
-    color: white;
+    color: hotpink;
     align-content: center;
     } 
 
@@ -295,7 +293,8 @@ textarea {
      
 
     .headertext{
-    font-size: 130px;
+    font-size: 80px;
+    color: hotpink;
     text-shadow: 2px 2px black ;
     } 
 

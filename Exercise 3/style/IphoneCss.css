@@ -1,11 +1,24 @@
 ﻿body {
+    padding: 10px;
+    width:985px;
+    margin: 0 auto;
 }
 
 #wrapper{
     width:298px;
     margin: 0 auto;
-    background:black;
-    padding-top: 5px;
+    margin-top: 50px;
+    padding: 20px;
+    background: #EFF8FB;
+    border-radius: 50px;
+    border: 2px solid #848484;
+}
+
+#insideWrapper{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 2px solid #848484;
+    background: #F2F2F2;
 }
 
 table{
@@ -21,16 +34,65 @@ td{
     width: 50px;
 } 
 
+.Camera{
+    margin: 0px auto;
+    width:10px;
+    height:10px;
+    background:#848484;   
+    box-shadow: inset 0 0 5px #000;
+    border-radius:50%;
+}
+
+.Speaker{
+    margin: 0px auto;
+    margin-top: 10px;
+    width:50px;
+    height:7px;
+    background:#848484;   
+    box-shadow: inset 0 0 2px #000;
+    border-radius:20%;
+}
+
+.Speaker2{
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-left: -20px;
+    width:8px;
+    height:8px;
+    background:#848484;   
+    box-shadow: inset 0 0 2px #000;
+    border-radius:50%;
+}
+
+.undertextapp{
+    color: #848484;
+    font-size: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5px;
+}
+ 
+
 .topmenu2{
-    background: pink;
+    background: #F6CEE3;
     margin: 22px;
 
  }
 
+.topmenu3{
+    background: #F6CEE3;
+    margin: 22px;
+
+ }
+
+.table2{
+    padding-bottom:5px;
+    margin-top:-5px;
+}
+ 
+
 #topmenu1{
     margin-bottom: 5px;
-    margin-left: 8px;
-    width: 92%;
+    opacity: 0.7;
     background: grey;
     color:white;
     text-transform: uppercase;
@@ -39,4 +101,68 @@ td{
     word-spacing: 39px;
     letter-spacing: 1px;
 }
+
+#topmenu2{
+    margin-top: -35px;
+    margin-left: 8px;
+    width: 92%;
+    color:white;
+    text-shadow: 2px 2px #BDBDBD;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    font-size: 52px;
+    word-spacing: 39px;
+    letter-spacing: 1px;
+}
+
+.HomeButton{
+    margin: 0px auto;
+    background: white;
+    border: 1px solid #E6E6E6;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.HomeButtonInside{
+    margin: 0px auto;
+    margin-top: 14px;
+    background: white;
+    border: 2px solid #E6E6E6;
+    border-radius: 10%;
+    width: 18px;
+    height: 18px;
+}
+
+#nav{
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
  
+#nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: black;
+ }
+
+#nav li {
+    float: left;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family:'Agency FB';
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #111;
+}
