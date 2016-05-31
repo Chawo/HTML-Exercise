@@ -21,14 +21,7 @@ body {
 
 #emails{
     width: 98.8%;
-    }
-
-#nav{
-    margin: 0 auto;
-    width: 100%;
-    font-family: 'Times New Roman', Times, serif;
-}
-
+    } 
 
 .headertext{
     font-size: 60px;
@@ -70,6 +63,12 @@ a:hover{
 }
  
  /*unsorted list*/
+
+ #nav{
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
   
 #nav ul {
     list-style-type: none;
@@ -96,6 +95,8 @@ a:hover{
 #nav li a:hover {
     background-color: #111;
 }
+
+/* Contact Emails*/
 
 input[type=text], select {
     width: 100%;
