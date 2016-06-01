@@ -18,3 +18,23 @@ C:\Users\KC\Source\Repos\HTML-Exercise\Exercise 4\bin\Microsoft.CodeDom.Provider
 C:\Users\KC\Source\Repos\HTML-Exercise\Exercise 4\obj\Debug\Exercise 4.csprojResolveAssemblyReference.cache
 C:\Users\KC\Source\Repos\HTML-Exercise\Exercise 4\obj\Debug\Exercise 4.dll
 C:\Users\KC\Source\Repos\HTML-Exercise\Exercise 4\obj\Debug\Exercise 4.pdb
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\csc.exe
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\vbc.exe
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\VBCSCompiler.exe
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\Exercise 4.dll.config
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\Exercise 4.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\Exercise 4.pdb
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\obj\Debug\Exercise 4.csprojResolveAssemblyReference.cache
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\obj\Debug\Exercise 4.dll
+C:\Users\Katrina\Source\Repos\HTML-Exercise\Exercise 4\obj\Debug\Exercise 4.pdb

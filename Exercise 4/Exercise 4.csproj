@@ -75,6 +75,7 @@
     <Content Include="images\1418797241.jpg" />
     <Content Include="images\boracay_internet-e1402128480208.jpg" />
     <Content Include="images\Nami-Resort-Boracay-Philippines.jpg" />
+    <Content Include="images\tabla-surf-hi.png" />
     <Content Include="images\White-Beach-phillipins.jpg" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
@@ -87,6 +88,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="pages\about.html" />
+    <Content Include="pages\canvas.html" />
     <Content Include="pages\contact.html" />
     <Content Include="pages\gallery.html" />
     <Content Include="Scripts\bootstrap.js" />
