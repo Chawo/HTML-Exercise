@@ -166,3 +166,23 @@ td{
 #nav li a:hover {
     background-color: #111;
 }
+
+@media all and (max-device-width: 768px) {
+     body{
+        background:#ff0000;
+    }
+     #nav li {
+    font-size: 52px;
+    color: #ff0000;
+    }
+}
+
+@media all and (max-device-width: 480px) {
+    body{
+        background:hotpink;
+    }
+    #nav li {
+    font-size: 82px;
+    color: #ff6a00;
+    }
+}

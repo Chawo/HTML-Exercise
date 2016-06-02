@@ -247,10 +247,13 @@ textarea {
     margin-left: 15%;
 }
 
-/*Tablett*/
-@media all and (max-device-width: 768px) { 
-     
 
+
+/*Tablett*/
+@media all and (min-width: 768px) {  
+    a{
+    color: blueviolet;
+    }
     img{
      width: 975px;   
     }
@@ -259,6 +262,8 @@ textarea {
      float: left;
      width: 980px;
      text-align: center;
+     font-size: 30px;
+     color: cornflowerblue;
     }
 
     p{
@@ -268,7 +273,7 @@ textarea {
     .headertext{
     font-size: 4em;
     text-shadow: 2px 2px black ;
-    color: hotpink;
+    color: blue;
     align-content: center;
     } 
 
@@ -281,7 +286,9 @@ textarea {
 
 /*Cellphone*/
 @media all and (max-device-width: 480px) { 
-
+    a{
+    color: aqua;
+}
     img{
      width: 935px;   
     }
@@ -290,12 +297,14 @@ textarea {
      float: left;
      width: 930px;
      text-align: center;
+     font-size: 60px;
+     color: #ff0000;
     }
      
 
     .headertext{
     font-size: 80px;
-    color: hotpink;
+    color: #ffd800;
     text-shadow: 2px 2px black ;
     } 
 
