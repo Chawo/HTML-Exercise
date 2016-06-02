@@ -73,8 +73,15 @@
     <Content Include="Content\style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\1418797241.jpg" />
+    <Content Include="images\983897-boracay.jpg" />
+    <Content Include="images\983899-boracay.jpg" />
+    <Content Include="images\983910-boracay.jpg" />
+    <Content Include="images\983919-boracay.jpg" />
     <Content Include="images\boracay_internet-e1402128480208.jpg" />
+    <Content Include="images\chat-2.png" />
     <Content Include="images\Nami-Resort-Boracay-Philippines.jpg" />
+    <Content Include="images\sea-wind-boracay-beach-dining.jpg" />
+    <Content Include="images\sunny-beach-2560x1440.jpg" />
     <Content Include="images\tabla-surf-hi.png" />
     <Content Include="images\White-Beach-phillipins.jpg" />
     <Content Include="index.html" />
@@ -87,16 +94,16 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="pages\about.html" />
     <Content Include="pages\canvas.html" />
     <Content Include="pages\contact.html" />
     <Content Include="pages\gallery.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.2.3.js" />
+    <Content Include="Scripts\jquery-2.2.3.min.js" />
+    <Content Include="Scripts\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
