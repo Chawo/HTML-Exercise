@@ -248,37 +248,24 @@ textarea {
 
 
 /*Tablett*/
-@media all and (max-width: 768px) { 
-     
-    #wrapper{
-        width: 100%;
+@media screen and (max-width: 768px) {  
 
-    }
     a{
     color: blueviolet;
-    }
-    img{
-     width: 975px;   
-    }
+    } 
     
-    h1, h2{
+    h1, h2, p{
      float: left;
-     width: 980px;
-     text-align: center;
-     font-size: 30px;
-     color: cornflowerblue;
-    }
-
-    p{
-        font-size: 20px;
+     font-size: 2em;
+     color: aqua;
     } 
 
     .headertext{
     font-size: 4em;
     text-shadow: 2px 2px black ;
-    color: blueviolet;
-    align-content: center;
-    } 
+    color: aqua;
+    text-align:right;
+        } 
 
     #emails{
     margin-top: 25px;  
@@ -286,38 +273,30 @@ textarea {
     }
 
     #nav li a{
-    font-size: 40px;
+    font-size: 2em;
     color:blueviolet;
     }
 }
 
 /*Cellphone*/
-@media all and (max-width: 480px) { 
-    #wrapper{
-        width: 100%;
-    }
+@media screen and (max-width: 480px) {      
     a{
     color: aqua;
     }
     img{
-     width: 935px;   
-    }
+     width: 100%;   
+    } 
     
     h1, h2, p{
      float: left;
-     width: 930px;
-     text-align: center;
-     font-size: 60px;
+     text-align: left;
+     font-size: 20px;
      color: #ff0000;
-    }
-     
-    #header{
-        width:100%;
-    }
+    } 
 
     .headertext{
-    font-size: 80px;
-    color: #ffd800;
+    font-size: 2.5em;
+    color:blueviolet;
     text-shadow: 2px 2px black ;
     } 
 
@@ -326,7 +305,7 @@ textarea {
     }  
 
     #nav li a{
-    font-size: 60px;
+    font-size: 30px;
     color: aqua
     }
 }
