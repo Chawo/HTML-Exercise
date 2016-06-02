@@ -1,7 +1,5 @@
 ﻿
 body {
-    padding: 10px;
-    width:985px;
     margin: 0 auto;
 }
 
@@ -250,7 +248,12 @@ textarea {
 
 
 /*Tablett*/
-@media all and (min-width: 768px) {  
+@media all and (max-width: 768px) { 
+     
+    #wrapper{
+        width: 100%;
+
+    }
     a{
     color: blueviolet;
     }
@@ -258,7 +261,7 @@ textarea {
      width: 975px;   
     }
     
-    h1, h2, p{
+    h1, h2{
      float: left;
      width: 980px;
      text-align: center;
@@ -273,7 +276,7 @@ textarea {
     .headertext{
     font-size: 4em;
     text-shadow: 2px 2px black ;
-    color: blue;
+    color: blueviolet;
     align-content: center;
     } 
 
@@ -282,13 +285,20 @@ textarea {
     font-size: 25px;
     }
 
+    #nav li a{
+    font-size: 40px;
+    color:blueviolet;
+    }
 }
 
 /*Cellphone*/
-@media all and (max-device-width: 480px) { 
+@media all and (max-width: 480px) { 
+    #wrapper{
+        width: 100%;
+    }
     a{
     color: aqua;
-}
+    }
     img{
      width: 935px;   
     }
@@ -301,6 +311,9 @@ textarea {
      color: #ff0000;
     }
      
+    #header{
+        width:100%;
+    }
 
     .headertext{
     font-size: 80px;
@@ -312,8 +325,8 @@ textarea {
     width: 990px;
     }  
 
-    #nav li {
-    float: left;
-    font-size: 40px;
+    #nav li a{
+    font-size: 60px;
+    color: aqua
     }
 }
