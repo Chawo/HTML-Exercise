@@ -302,7 +302,7 @@ textarea {
     transform-style: preserve-3d;
     /*preserve-3d motverkar att ytan minskas i 2d
         och sen ökas i en fejkad 3d */
-    transition: transform 1s;
+    transition: transform 1s ;
 }
 /*Beskriver hur korten ska visas:*/
 /*section.container div.card figure {*/
@@ -324,6 +324,7 @@ textarea {
 }
 .card:hover{
     transform: rotate(180deg);
+    width: 1.5em;
 }
 .tvau .card:hover{
     transform:rotate(180deg);

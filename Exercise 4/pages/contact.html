@@ -24,14 +24,21 @@
             <form action="email.html">
                 <fieldset>
                     <legend>Contact</legend><br />
-                    E-mail: <br /><input type="text" name="E-mail" placeholder="E-mail" /><br />
-                    Firstname: <br /><input type="text" name="Firstname" placeholder="Firstname" /><br />
-                    Lastname: <br /><input type="text" name="Lastname" placeholder="Lastname" /> <br />
-                    Subject: <br /><input type="text" name="Subject" placeholder="Subject" />
+                    <label for="email">E-mail:</label> <br /><input type="text" name="E-mail" placeholder="E-mail" id="email" required/><br />
+                    <label for="firstname">Firstname:</label> <br /><input type="text" name="Firstname" placeholder="Firstname" id="firstname" required/><br />
+                    <label for="lastname">Lastname:</label> <br /><input type="text" name="Lastname" placeholder="Lastname" id="lastname" required/> <br />
+                    <label for="phonenumber">Phonenumber:</label> <br /><input type="text" name="Phonenumber" placeholder="Phonenumber" id="phonenumber" required /> <br />
+                    <label for="subject">Subject:</label> <br /><input type="text" name="Subject" placeholder="Subject" id="subject"/>
                     <br /><br />
-                    Message:<br />
-                    <textarea placeholder="Your message here please"></textarea>
+                    <label for="message">Message:</label> <br />
+                    <textarea placeholder="Your message here please" id="message" required></textarea>
                     <br /><br />
+                    <label for="feedback">Feedback:</label>
+                    <select name="feedback" id="feedback">
+                        <option value="happy"> Happy ≧◠‿◠≦✌</option>
+                        <option value="normal"> Normal 👋≧◉ᴥ◉≦</option>
+                        <option value="sad"> Sad ( ˘︹˘ )</option>
+                    </select>
                     <input type="submit" value="Confirm">
                 </fieldset>
 
