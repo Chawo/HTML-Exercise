@@ -1,0 +1,147 @@
+﻿@import url('style.css');
+
+header{
+    padding-top: 2%;
+    margin-top: -3.5%; 
+}
+
+#nav{
+        width: 90%;
+        margin-left: 5%;
+      margin-top: -2.5%;
+}
+
+
+#myCanvas {
+    border: 1px solid black;
+    width: 100%;
+    height: 768px;
+    background-image: url('../images/bubbles.gif') ;
+}
+
+#coral {
+    width: 800px;
+    height: 200px;
+    margin: 565px 100px 350px 200px;
+     z-index: 1;
+     position:relative;
+}
+
+#murray {
+    margin: 20% 0px 0px 10%;
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    
+    animation-name: murrayclock;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+} 
+
+ 
+@keyframes murrayclock {
+    0%   {top: 0px; left: 0px; }
+    25%  {top: 0px; left: 100px; }
+    50%  {top: 100px; left: 100px; }
+    75%  {top: 100px; left: 0px; }
+    100% {top: 0px; left: 0px; }
+}
+
+@keyframes murrayclockcheckbox{
+    00%   {top: 0px; left: 0px; }
+    25%  {top: 0px; left: -100px; }
+    50%  {top: 100px; left: -100px; }
+    75%  {top: 100px; left: 0px; }
+    100% {top: 0px; left: 0px; }
+}
+
+#stonefishs {
+    margin: 0px 100px 0px -100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float:right;
+    
+    animation-name: stonefish;
+    /*animation-duration: 5s;*/
+    animation: stonefish 5s infinite;
+} 
+
+@keyframes stonefish {
+    0%   {top: 0px; left: -100px;}
+    50%  {top: 0px; left: 100px; }
+    100% {top: 0px; left: -100px; }
+}
+
+
+#shark {
+    margin-top: 50%;
+    margin-left: 100px;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    
+    animation-name: shark;
+    /*animation-duration: 5s;*/
+    animation: shark 5s infinite;
+ } 
+
+@keyframes shark {
+    0%   {top: 0px; left: -50px;}
+    50%  {top: 50px; left: 50px; }
+    100% {top: 0px; left: -50px; }
+}
+
+@keyframes sharkcheckbox {
+    0%   {top: 0px; left: 50px;}
+    50%  {top: -150px; left: -50px; }
+    100% {top: 0px; left: 50px; }
+}
+
+#diver {
+    margin-left: 20%;
+    margin-top: 30%;
+    position: absolute;
+    
+    animation-name: diver;
+    /*animation-duration: 5s;*/
+    animation: diver 5s infinite;
+} 
+
+@keyframes diver {
+    0%   {top: 0px; left: 50%;}
+    50%  {top: 0px; left: -18%; }
+    75%  {top: 100px; left: -50px; }
+    100% {top: 0px; left: 50%; }
+}
+ 
+
+#sharkcheckinbox:checked ~ #myCanvas #shark{
+            transform: rotateY(540deg) rotate(27deg);
+                animation-name: sharkcheckbox;
+
+} 
+#murraycheckinbox:checked ~ #myCanvas #murray{
+
+    animation-name: murrayclockcheckbox;
+    transform: rotateY(540deg);
+
+}
+
+
+#stonefishcheckinbox:checked ~ #myCanvas #stonefishs{
+    float:left;
+    margin-left: 50%;
+    margin-top: 50%;
+    position:absolute;
+    transform: rotateY(540deg);
+}
+
+.col-sm-12{
+    padding: 20px;
+}
+
+footer{
+margin-top: 10%;
+}

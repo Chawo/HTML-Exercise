@@ -3,24 +3,50 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
     <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../Content/Aquarium.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script>
+  // Fallback to loading jQuery from a local path if the CDN is unavailable
+        (window.jQuery || document.write('<script src="scripts/myCanvas.js"><\/script>'));
+    </script>
+    <script src="scripts/myCanvas.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="../Content/style.css" rel="stylesheet" />
-    <script src="../Scripts/drawCanvas.js"></script>
 </head>
 <body>
     <header class="container-fluid">
-        <h1><img src="../images/tabla-surf-hi.png" />Boracay</h1>
+        <h1><img src="../images/tabla-surf-hi.png" class="grow" />Boracay</h1>
         <div id="nav">
             <ul>
                 <li><a class="active" href="../index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="canvas.html">Canvas</a></li> 
+                <li><a href="canvas.html">Canvas</a></li>
             </ul>
         </div>
     </header>
-
+    <div class="container">
+        <div class="col-sm-12">
+            <input type="checkbox" id="sharkcheckinbox" /> Shark
+            <input type="checkbox" id="murraycheckinbox" /> Murray
+            <input type="checkbox" id="stonefishcheckinbox" /> Stonefish
+            <div id="myCanvas">
+                <img class="img-responsive" src="../images/0002844_diver-0001.png_300.png" id="diver" />
+                <img class="img-responsive" src="../images/topshark.png" id="shark" />
+                <img class="img-responsive" src="../images/Huge_item_stonefish_01.png" id="stonefishs" />
+                <img class="img-responsive" src="../images/Huge_item_moreyeel_01.png" id="murray" />
+                <img class="img-responsive" src="../images/Coral.png" id="coral" />
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="col-sm-12">
+            <p>&copy; 2016 School project</p>
+            <img src="../images/socialicons/wgrey-facebook.png" />
+            <img src="../images/socialicons/wgrey-googleplus.png" />
+            <img src="../images/socialicons/wgrey-instagram.png" />
+            <img src="../images/socialicons/wgrey-tumblr.png" />
+        </div>
+    </footer>
 </body>
 </html>

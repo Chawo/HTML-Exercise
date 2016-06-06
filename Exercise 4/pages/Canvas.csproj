@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A4BE7D75-8E05-425C-BFFB-E214FDCAA0DD}</ProjectGuid>
+    <ProjectGuid>{CFF50BCB-2337-4FCC-B85E-64B14CFFC0AF}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Exercise_4</RootNamespace>
-    <AssemblyName>Exercise 4</AssemblyName>
+    <RootNamespace>Canvas</RootNamespace>
+    <AssemblyName>Canvas</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -66,57 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="audio\Maldive3.mp4" />
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\style.css" />
-    <Content Include="Content\Aquarium.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="images\0002844_diver-0001.png_300.png" />
-    <Content Include="images\1418797241.jpg" />
-    <Content Include="images\983897-boracay.jpg" />
-    <Content Include="images\983899-boracay.jpg" />
-    <Content Include="images\983910-boracay.jpg" />
-    <Content Include="images\983919-boracay.jpg" />
-    <Content Include="images\boracay_internet-e1402128480208.jpg" />
-    <Content Include="images\bubbles.gif" />
-    <Content Include="images\chat-2.png" />
-    <Content Include="images\Coral.png" />
-    <Content Include="images\Huge_item_moreyeel_01.png" />
-    <Content Include="images\Huge_item_stonefish_01.png" />
-    <Content Include="images\Nami-Resort-Boracay-Philippines.jpg" />
-    <Content Include="images\sea-wind-boracay-beach-dining.jpg" />
-    <Content Include="images\socialicons\wgrey-facebook.png" />
-    <Content Include="images\socialicons\wgrey-googleplus.png" />
-    <Content Include="images\socialicons\wgrey-instagram.png" />
-    <Content Include="images\socialicons\wgrey-tumblr.png" />
-    <Content Include="images\sunny-beach-2560x1440.jpg" />
-    <Content Include="images\tabla-surf-hi.png" />
-    <Content Include="images\topshark.png" />
-    <Content Include="images\White-Beach-phillipins.jpg" />
-    <Content Include="index.html" />
     <Content Include="packages.config" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="pages\about.html" />
-    <Content Include="pages\canvas.html" />
-    <Content Include="pages\contact.html" />
-    <Content Include="pages\gallery.html" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="audio\Maldive3.ogv" />
-    <None Include="Scripts\jquery-2.2.3.intellisense.js" />
-    <Content Include="Scripts\jquery-2.2.3.js" />
-    <Content Include="Scripts\jquery-2.2.3.min.js" />
-    <Content Include="Scripts\jquery-2.2.3.min.map" />
+    <Content Include="scripts\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,15 +76,39 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\myCanvas.js" />
-    <Content Include="Scripts\snapshot.js" />
-    <Content Include="Scripts\sound-mouseover.js" />
+    <Content Include="Canvas.html" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\0002844_diver-0001.png_300.png" />
+    <Content Include="images\Coral.png" />
+    <Content Include="images\Huge_item_moreyeel_01.png" />
+    <Content Include="images\Huge_item_stonefish_01.png" />
+    <Content Include="images\bubbles.gif" />
+    <Content Include="images\topshark.png" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\JavaScript.js" />
+    <Content Include="scripts\jquery-2.2.3.js" />
+    <Content Include="scripts\jquery-2.2.3.min.js" />
+    <Content Include="scripts\myCanvas.js" />
+    <Content Include="style\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -147,9 +122,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>8848</DevelopmentServerPort>
+          <DevelopmentServerPort>3031</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8848/</IISUrl>
+          <IISUrl>http://localhost:3031/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
