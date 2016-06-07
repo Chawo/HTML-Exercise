@@ -76,9 +76,9 @@
 
 .boracaygallery img{
   margin:10px;
-  max-width: 300px;
-  max-height: 220px;
-  min-height: 220px;
+  width:100%;
+  height: 200px;
+  min-height: 100%;
   border: 5px solid white;
   border-radius: 10px;
    -webkit-box-shadow: 0px 4px 32px -12px rgba(0,0,0,1);
@@ -98,8 +98,8 @@
 }
 
 .back, .backs { 
-    height: 199px;
-    width: 283px;
+    max-height: 200px;
+    width:90%;
     background: #eed2d2;
     position: absolute;
     z-index: 1;
@@ -110,6 +110,8 @@
     -webkit-box-shadow: 0px 4px 32px -12px hotpink;
     -moz-box-shadow: 0px 4px 32px -12px hotpink;
     box-shadow: 0px 4px 32px -12px hotpink;
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
 
 .image{
@@ -145,7 +147,38 @@
  
 .grow { transition: all .2s ease-in-out; transform-style: preserve-3d; backface-visibility:hidden;}
 .grow:hover { transform: scale(1.5) rotateZ(360deg); }
- 
+
 #myVideo{
-    margin-top:55px;
+    height:80%;
+        width:100%;
+        margin-top:15%;
+} 
+
+#myVideos{
+        height:80%;
+        width:600px;
+        margin-top:7%;
+        margin-left:12%;
+
 }
+ 
+@media all and (max-device-width: 480px) {
+    #myVideos{
+        width:500px;
+
+}
+    #myVideo{
+    height:80%;
+        width:500px;
+        margin-top:15%;
+}  
+     .row3, .col-xs-3, col-xs-3, col-xs-6  video{
+        width:100%;
+
+}
+      
+}
+
+ 
+ 
+ 

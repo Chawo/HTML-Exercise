@@ -136,14 +136,14 @@ h3 img{
 
 
 
-@media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-  }
+@media all and (max-width: 480px){
+   
   .popup{
     width: 70%;
   }
 }
+
+
 
  
  
